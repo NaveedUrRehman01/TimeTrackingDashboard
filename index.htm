@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Time tracking dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <div class="details">
+                <img src="/images/image-jeremy.png" alt="Jermey" class="image">
+                <p> Report for <br> 
+                <span> Jermey Robson</span></p>
+            </div>
+            <div class="schedule">
+                <ul>
+                    <li id="daily">daily</li>
+                    <li id="weekly">weekly</li>
+                    <li id="monthly">Monthly</li>
+                </ul>
+            </div>
+        </div>
+        <div class="work">
+            <div class="mainimg w1">
+                <img src="/images/icon-work.svg" alt="work" class="img">
+            </div>
+            <div class="data">
+                <div class="heading">
+                    <h4 id="status"></h4>
+                    <img src="/images/icon-ellipsis.svg" alt="icon-ellipsis" class="icon">
+                </div>
+                <div class="utilize">
+                    <h1 id="wh1"></h1>
+                    <p>Last Week -<span id="wp1"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="play">
+            <div class="mainimg p1">
+                <img src="/images/icon-play.svg" alt="play" class="img">
+            </div>
+            <div class="data">
+                <div class="heading">
+                    <h4 id="pstatus"></h4>
+                    <img src="/images/icon-ellipsis.svg" alt="icon-ellipsis" class="icon">
+                </div>
+                <div class="utilize">
+                    <h1 id="ph1"></h1>
+                    <p>Last Week -<span id="pp1"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="study">
+            <div class="mainimg s1">
+                <img src="/images/icon-study.svg" alt="study" class="img">
+            </div>
+            <div class="data">
+                <div class="heading">
+                    <h4 id="sstatus"></h4>
+                    <img src="/images/icon-ellipsis.svg" alt="icon-ellipsis" class="icon">
+                </div>
+                <div class="utilize">
+                    <h1 id="sh1"></h1>
+                    <p>Last Week -<span id="sp1"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="exercise">
+            <div class="mainimg e1">
+                <img src="/images/icon-exercise.svg" alt="exercise" class="img">
+            </div>
+            <div class="data">
+                <div class="heading">
+                    <h4 id="estatus"></h4>
+                    <img src="/images/icon-ellipsis.svg" alt="icon-ellipsis" class="icon">
+                </div>
+                <div class="utilize">
+                    <h1 id="eh1"></h1>
+                    <p>Last Week -<span id="ep1"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="mainimg so1">
+                <img src="/images/icon-social.svg" alt="social" class="img">
+            </div>
+            <div class="data">
+                <div class="heading">
+                    <h4 id="sostatus"></h4>
+                    <img src="/images/icon-ellipsis.svg" alt="icon-ellipsis" class="icon">
+                </div>
+                <div class="utilize">
+                    <h1 id="soh1"></h1>
+                    <p>Last Week -<span id="sop1"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="self-care">
+            <div class="mainimg sc1">
+                <img src="/images/icon-self-care.svg" alt="self-care" class="img">
+            </div>
+            <div class="data">
+                <div class="heading">
+                    <h4 id="scstatus"></h4>
+                    <img src="/images/icon-ellipsis.svg" alt="icon-ellipsis" class="icon">
+                </div>
+                <div class="utilize">
+                    <h1 id="sch1"></h1>
+                    <p>Last Week -<span id="scp1"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="data.json"></script>
+    <script src="index.js"></script>
+</body>
+</html>
