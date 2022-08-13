@@ -42,7 +42,7 @@
     align-content: center;
     justify-content: center;
     gap: 10px;
-    background-color: #2196F3;
+ 
     padding: 10px;
   }
   .container > div{
@@ -159,7 +159,7 @@
 .e1{
     background-color: var(--clr-lime-green-exercise);
 }
-.socail{
+.social{
     grid-column: 3 / 4;
     grid-row: 2 / 3;
     width: 150px;
@@ -177,10 +177,59 @@
 .sc1{
     background-color: var(--clr-soft-orange-self-care);
 }
-span{
+ .utilize span{
     font-size: x-small;
     padding-left: 3px;
 }
-#weekly{
-    color: #fff;
-}
+@media screen and (max-width: 600px) {
+    body {
+     
+      width: 100%;
+      height: 100vh;
+
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      
+        width: 100%;
+        height: auto;
+        margin: 0%;
+        padding: 10px;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 480px;
+    }
+    .details{
+        display: flex;
+    }
+    .details p {
+        padding-left: 10px;
+    }
+    .details span{
+        padding: 0%;
+    }
+    .schedule ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .work, .play, .study, .exercise, .self-care, .social {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .utilize{
+        display: flex;
+        justify-content: space-between;
+    }
+    .utilize p{
+        padding-top: 20px;
+        
+    }
+  }
